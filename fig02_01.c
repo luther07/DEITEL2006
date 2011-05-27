@@ -5,7 +5,7 @@
 /* function main begins program execution */
 int main( void )
 {
-	printf( "Welcome to C!\n" );
-	return 0; /* indicates that the program ended successfully */
+   printf( "Welcome to C!\n" );
+   return 0; /* indicates that the program ended successfully */
 
 }  /* end function main */
