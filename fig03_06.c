@@ -18,8 +18,8 @@ int main( void )
    while ( counter <= 10 ) {     /* loop 10 times */
       printf( "Enter grade: " ); /* prompt for input */
       scanf( "%d", &grade );      /* read grade from user */
-      total = total + grade;     /* add grade tot total */
-      counter = counter + 1;     /* increment counter */
+      total += grade;     /* add grade tot total */
+      counter++;     /* increment counter */
    } /* end while */
 
    /* termination phase */
