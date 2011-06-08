@@ -22,8 +22,8 @@ int main( void )
 
    /* loop while sentinel value not yet read from user */
    while( grade != -1) {
-      total = total + grade; /* add grade to total */
-      counter = counter + 1; /* increment counter */
+      total += grade; /* add grade to total */
+      counter++; /* increment counter */
 
       /* get next grade from user */
       printf("Enter grade, -1 to end: " ); /* prompt for input */
