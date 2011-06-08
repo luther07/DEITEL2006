@@ -19,15 +19,15 @@ int main( void )
 
       /* if result 1, increment passes */
       if ( result == 1 ) {
-         passes = passes + 1;
+         passes++;
       } /* end if */
 
       /* if result 2, increment failures */
       if ( result == 2 ) {
-         failures = failures + 1;
+         failures++;
       } /* end if */
 
-      student = student + 1; /* increment student counter */
+      student++; /* increment student counter */
    } /* end while */
 
    /* termination phase; display number of passes and failures */
