@@ -1,8 +1,5 @@
 /* Fig 4.5: fig04_05.c
-   Summation with for	 
-   Requires: cc -lm fig04_06.c.
-   Compile option of -lm. 
-   I don't know why */
+   Summation with for */
 #include <stdio.h>
 
 /* function main begins program execution */
