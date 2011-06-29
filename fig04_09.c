@@ -1,5 +1,5 @@
 /* Fig 4.9: fig04_09.c
-   using the do/while repitition statement */
+   Using the do/while repitition statement */
 #include <stdio.h>
 
 /* function main begins program execution */
