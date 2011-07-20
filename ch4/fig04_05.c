@@ -1,5 +1,5 @@
 /* Fig 4.5: fig04_05.c
-   Summation with for	 */
+   Summation with for */
 #include <stdio.h>
 
 /* function main begins program execution */

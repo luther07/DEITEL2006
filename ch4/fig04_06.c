@@ -1,6 +1,13 @@
 /* Fig 4.6: fig04_06.c
+<<<<<<< HEAD:fig04_06.c
    Calculating compound interest. 
    Must use -lm compile option.	 */
+=======
+   Calculating compound interest 
+   Requires: cc -lm fig04_06.c.
+   That is the -lm compile option for Linux/UNIX C Compilers.
+   I don't know why. */
+>>>>>>> 191e001dac567bb8641169f394aa9eae153ed4d3:ch4/fig04_06.c
 #include <stdio.h>
 #include <math.h>
 
