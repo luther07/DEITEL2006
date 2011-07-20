@@ -1,5 +1,6 @@
 /* Fig 4.6: fig04_06.c
-   Calculating compound interest	 */
+   Calculating compound interest. 
+   Must use -lm compile option.	 */
 #include <stdio.h>
 #include <math.h>
 
