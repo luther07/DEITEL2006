@@ -1,0 +1,10 @@
+Chapter 7: C Pointers
+* Pointers are variables whose values are memory addresses.
+* A variable name directly references a value and a pointer indirectly references a value.
+* Pointers must be defined before they can be used
+  int *countPtr, count;
+* Include the letters ptr in pointer variable names.
+* A pointer may be initialized to 0, NULL, or an address.
+* NULL is a symbolic constant defined in <stddef.h> and several other headers.
+* The value 0 is the only integer value that can be assigned directly to a pointer.
+ 
