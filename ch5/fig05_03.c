@@ -12,7 +12,7 @@ int main( void )
    /* loop 10 times and calculate and ouput square of x each time  */
    for( x = 1; x <= 10; x++ ) {
       printf( "%d  ", square( x ) ); /* function call */
-   } /* end for */  
+   } /* end for */
 
    printf( "\n" );
 

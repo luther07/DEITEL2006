@@ -1,13 +1,9 @@
 /* Fig 4.6: fig04_06.c
-<<<<<<< HEAD:fig04_06.c
-   Calculating compound interest. 
-   Must use -lm compile option.	 */
-=======
-   Calculating compound interest 
+   Calculating compound interest
    Requires: cc -lm fig04_06.c.
    That is the -lm compile option for Linux/UNIX C Compilers.
    I don't know why. */
->>>>>>> 191e001dac567bb8641169f394aa9eae153ed4d3:ch4/fig04_06.c
+
 #include <stdio.h>
 #include <math.h>
 
@@ -24,13 +20,13 @@ int main( void )
 
    /* calculate amount on deposit for each of ten years */
    for( year = 1; year <= 10; year++ ) {
-      
+
    /* calculate new amount for specified year */
    amount = principal * pow( 1.0 + rate, year );
 
    /* output one table row */
    printf( "%d%21.2f\n", year, amount );
-   } /* end for */  
+   } /* end for */
 
    return 0; /* indicates that the program ended successfully */
 

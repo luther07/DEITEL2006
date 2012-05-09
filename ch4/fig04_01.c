@@ -8,7 +8,7 @@ int main( void )
    int counter = 0; /* loop counter initialization & initial value */
 
    while( ++counter <= 10 ) /* repitition condition */
-      printf( "%d\n", counter ); /* end while */   
+      printf( "%d\n", counter ); /* end while */
 
    return 0; /* indicates that the program ended successfully */
 

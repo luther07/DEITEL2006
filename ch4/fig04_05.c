@@ -12,7 +12,7 @@ int main( void )
      are included in the for statement header */
    for( number = 2; number <= 100; number += 2 ) {
       sum += number; /* add number to sum */
-   } /* end for */  
+   } /* end for */
 
    printf( "Sum is %d\n", sum ); /* output sum */
 

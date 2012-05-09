@@ -19,7 +19,7 @@ int main( void )
    /* loop 6000 times and summarize results */
    for( roll =1; roll <= 6000; roll++ ) {
 
-      face = 1 + ( rand() % 6 ); /* random number from 1 to 6*/   
+      face = 1 + ( rand() % 6 ); /* random number from 1 to 6*/
 
       /* determine face value and increment appropriate counter */
       if( face == 1 ) 

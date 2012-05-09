@@ -16,9 +16,9 @@ int main( void )
 
       /* if counter is divisible by 5, begin new line of output */
       if( i % 5 == 0 )
-         printf( "\n" ); 
+         printf( "\n" );
 
-   } /* end for */  
+   } /* end for */
 
    printf( "\n" );
 

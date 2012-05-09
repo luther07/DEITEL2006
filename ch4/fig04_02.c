@@ -11,7 +11,7 @@ int main( void )
      are included in the for statement header */
    for( counter = 1; counter <= 10; counter++ ) {
       printf( "%d\n", counter );
-   } /* end for */  
+   } /* end for */
 
    return 0; /* indicates that the program ended successfully */
 
